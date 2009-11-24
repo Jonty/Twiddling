@@ -10,7 +10,7 @@ Twintersect
 Twintersect intersects your twitter friends with another user in various ways, so you can work
 out how you're linked together. It also has a rather handy bookmarklet.
 
-[http://jonty.co.uk/bits/twintersect]: http://jonty.co.uk/bits/twintersect
+<http://jonty.co.uk/bits/twintersect>
 
 Twerverse
 ---------
@@ -18,4 +18,4 @@ Twerverse
 Twerverse inspects your friends and followers to work out who you're following that's not 
 following you. It's both informative and vaguely upsetting.
 
-[http://jonty.co.uk/bits/twerverse]: http://jonty.co.uk/bits/twerverse
+<http://jonty.co.uk/bits/twerverse>
