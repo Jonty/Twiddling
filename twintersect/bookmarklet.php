@@ -5,7 +5,7 @@ function(){
         return;
     }
 
-    var username = document.location.href.match(/twitter\.com\/(.*?)(\/|\?|$)/);
+    var username = document.location.href.match(/twitter\.com\/(?:#!\/)?(.*?)(\/|\?|$)/);
     if (!username || !username[1]) {
         alert('Oh dear, failed to work out what this twitter user is called!');
     }
