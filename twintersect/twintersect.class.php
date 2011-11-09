@@ -6,6 +6,7 @@
 
         private function getIdsForUser($type, $user) {
             $ids = $this->getXml("{$type}/ids.xml?screen_name={$user}");
+            $ids = (array) $ids['ids'];
             return isset($ids['id']) ? $ids['id'] : array();
         }
 

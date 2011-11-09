@@ -6,7 +6,9 @@
 
         function getDiffsForUser($user) {
             $followingXml = $this->getXml("friends/ids.xml?screen_name={$user}");
+            $followingXml = (array) $followingXml['ids'];
             $followersXml = $this->getXml("followers/ids.xml?screen_name={$user}");
+            $followersXml = (array) $followersXml['ids'];
 
             $notFollowingYou = $notFollowingThem = false;
             if (isset($followingXml['id']) || isset($followersXml['id'])) {
