@@ -35,7 +35,7 @@
         }
 
         function getXml($url) {
-            $oCurl = curl_init("http://twitter.com/{$url}");
+            $oCurl = curl_init("http://api.twitter.com/1/{$url}");
 
             curl_setopt_array(
                 $oCurl,
